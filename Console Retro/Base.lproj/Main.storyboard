@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14460.15" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
-    <device id="retina5_9" orientation="portrait">
+    <device id="retina5_5" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
@@ -20,14 +20,14 @@
             <objects>
                 <viewController id="BYZ-38-t0r" customClass="HomeController" customModule="Console_Retro" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Atari 2600" translatesAutoresizingMaskIntoConstraints="NO" id="yg9-9f-4sx">
-                                <rect key="frame" x="20" y="139" width="335" height="559"/>
+                                <rect key="frame" x="20" y="115" width="374" height="541"/>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Console Retro" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wOd-2v-6wj">
-                                <rect key="frame" x="20" y="54" width="335" height="75"/>
+                                <rect key="frame" x="20" y="30" width="374" height="75"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="75" id="Pyt-21-nzS"/>
                                 </constraints>
@@ -38,24 +38,24 @@
                                 <size key="shadowOffset" width="1" height="1"/>
                             </label>
                             <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="43" translatesAutoresizingMaskIntoConstraints="NO" id="qLd-We-oty">
-                                <rect key="frame" x="20" y="718" width="335" height="50"/>
+                                <rect key="frame" x="20" y="676" width="374" height="50"/>
                                 <subviews>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7vj-H3-UNr">
-                                        <rect key="frame" x="0.0" y="0.0" width="83" height="50"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="96" height="50"/>
                                         <state key="normal" image="gauche"/>
                                         <connections>
                                             <action selector="previousPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="iQC-5E-Ic5"/>
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qf8-3O-mSl">
-                                        <rect key="frame" x="126" y="0.0" width="83" height="50"/>
+                                        <rect key="frame" x="139" y="0.0" width="96" height="50"/>
                                         <state key="normal" image="aleatoire"/>
                                         <connections>
                                             <action selector="randomPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="CCJ-z1-mje"/>
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bIz-MT-yMW">
-                                        <rect key="frame" x="252" y="0.0" width="83" height="50"/>
+                                        <rect key="frame" x="278" y="0.0" width="96" height="50"/>
                                         <state key="normal" image="droite"/>
                                         <connections>
                                             <action selector="nextPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="7E3-fo-VaN"/>
@@ -64,23 +64,55 @@
                                 </subviews>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="50" id="Gv2-D1-Isr"/>
+                                    <constraint firstAttribute="width" constant="50" id="m34-Bg-mtH"/>
                                 </constraints>
+                                <variation key="default">
+                                    <mask key="constraints">
+                                        <exclude reference="m34-Bg-mtH"/>
+                                    </mask>
+                                </variation>
+                                <variation key="heightClass=compact" axis="vertical" spacing="12">
+                                    <mask key="constraints">
+                                        <exclude reference="Gv2-D1-Isr"/>
+                                        <include reference="m34-Bg-mtH"/>
+                                    </mask>
+                                </variation>
                             </stackView>
                         </subviews>
                         <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="yg9-9f-4sx" secondAttribute="trailing" constant="20" id="5UX-rA-5BQ"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="yg9-9f-4sx" secondAttribute="bottom" constant="5" id="DU9-JB-TUY"/>
                             <constraint firstItem="wOd-2v-6wj" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="EKr-OM-KWH"/>
                             <constraint firstItem="yg9-9f-4sx" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="Hd6-vh-Rf0"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="wOd-2v-6wj" secondAttribute="trailing" constant="20" id="VSY-eL-i5Z"/>
                             <constraint firstItem="qLd-We-oty" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="XFR-q3-YNS"/>
+                            <constraint firstItem="qLd-We-oty" firstAttribute="top" secondItem="wOd-2v-6wj" secondAttribute="bottom" constant="20" id="Y3n-ZB-NDd"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="qLd-We-oty" secondAttribute="bottom" constant="10" id="YrO-Mz-APg"/>
+                            <constraint firstItem="qLd-We-oty" firstAttribute="leading" secondItem="yg9-9f-4sx" secondAttribute="trailing" constant="20" id="fRe-Tw-2h5"/>
                             <constraint firstItem="qLd-We-oty" firstAttribute="top" secondItem="yg9-9f-4sx" secondAttribute="bottom" constant="20" id="gpe-tw-emd"/>
                             <constraint firstItem="wOd-2v-6wj" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="10" id="riP-jQ-6qK"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="qLd-We-oty" secondAttribute="trailing" constant="20" id="unG-my-ZM1"/>
                             <constraint firstItem="yg9-9f-4sx" firstAttribute="top" secondItem="wOd-2v-6wj" secondAttribute="bottom" constant="10" id="ykT-MI-xMD"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <variation key="default">
+                            <mask key="constraints">
+                                <exclude reference="DU9-JB-TUY"/>
+                                <exclude reference="Y3n-ZB-NDd"/>
+                                <exclude reference="fRe-Tw-2h5"/>
+                            </mask>
+                        </variation>
+                        <variation key="heightClass=compact">
+                            <mask key="constraints">
+                                <exclude reference="5UX-rA-5BQ"/>
+                                <include reference="DU9-JB-TUY"/>
+                                <exclude reference="XFR-q3-YNS"/>
+                                <include reference="Y3n-ZB-NDd"/>
+                                <include reference="fRe-Tw-2h5"/>
+                                <exclude reference="gpe-tw-emd"/>
+                            </mask>
+                        </variation>
                     </view>
                     <connections>
                         <outlet property="retroIV" destination="yg9-9f-4sx" id="eTB-GP-q9l"/>
@@ -89,7 +121,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="53.600000000000001" y="26.53673163418291"/>
+            <point key="canvasLocation" x="52.5" y="26.25"/>
         </scene>
     </scenes>
     <resources>
