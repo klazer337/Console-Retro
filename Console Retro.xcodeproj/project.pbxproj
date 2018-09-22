@@ -12,6 +12,7 @@
 		93AC3EF82156F66D00796C24 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 93AC3EF72156F66D00796C24 /* Assets.xcassets */; };
 		93AC3EFB2156F66D00796C24 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 93AC3EF92156F66D00796C24 /* LaunchScreen.storyboard */; };
 		93AC3F032156F6CC00796C24 /* HomeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93AC3F022156F6CC00796C24 /* HomeController.swift */; };
+		93AC3F062156F9C300796C24 /* Retro60Prime.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 93AC3F052156F9C300796C24 /* Retro60Prime.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		93AC3EFA2156F66D00796C24 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		93AC3EFC2156F66D00796C24 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		93AC3F022156F6CC00796C24 /* HomeController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeController.swift; sourceTree = "<group>"; };
+		93AC3F052156F9C300796C24 /* Retro60Prime.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Retro60Prime.ttf; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +56,7 @@
 		93AC3EEF2156F66C00796C24 /* Console Retro */ = {
 			isa = PBXGroup;
 			children = (
+				93AC3F042156F99000796C24 /* Ressources */,
 				93AC3EF02156F66C00796C24 /* AppDelegate.swift */,
 				93AC3EF42156F66C00796C24 /* Main.storyboard */,
 				93AC3EF72156F66D00796C24 /* Assets.xcassets */,
@@ -62,6 +65,14 @@
 				93AC3F022156F6CC00796C24 /* HomeController.swift */,
 			);
 			path = "Console Retro";
+			sourceTree = "<group>";
+		};
+		93AC3F042156F99000796C24 /* Ressources */ = {
+			isa = PBXGroup;
+			children = (
+				93AC3F052156F9C300796C24 /* Retro60Prime.ttf */,
+			);
+			path = Ressources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,6 +136,7 @@
 				93AC3EFB2156F66D00796C24 /* LaunchScreen.storyboard in Resources */,
 				93AC3EF82156F66D00796C24 /* Assets.xcassets in Resources */,
 				93AC3EF62156F66C00796C24 /* Main.storyboard in Resources */,
+				93AC3F062156F9C300796C24 /* Retro60Prime.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
