@@ -8,20 +8,20 @@
 
 /* Begin PBXBuildFile section */
 		93AC3EF12156F66C00796C24 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93AC3EF02156F66C00796C24 /* AppDelegate.swift */; };
-		93AC3EF32156F66C00796C24 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93AC3EF22156F66C00796C24 /* ViewController.swift */; };
 		93AC3EF62156F66C00796C24 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 93AC3EF42156F66C00796C24 /* Main.storyboard */; };
 		93AC3EF82156F66D00796C24 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 93AC3EF72156F66D00796C24 /* Assets.xcassets */; };
 		93AC3EFB2156F66D00796C24 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 93AC3EF92156F66D00796C24 /* LaunchScreen.storyboard */; };
+		93AC3F032156F6CC00796C24 /* HomeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93AC3F022156F6CC00796C24 /* HomeController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		93AC3EED2156F66C00796C24 /* Console Retro.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Console Retro.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		93AC3EF02156F66C00796C24 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		93AC3EF22156F66C00796C24 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		93AC3EF52156F66C00796C24 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		93AC3EF72156F66D00796C24 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		93AC3EFA2156F66D00796C24 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		93AC3EFC2156F66D00796C24 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		93AC3F022156F6CC00796C24 /* HomeController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,11 +55,11 @@
 			isa = PBXGroup;
 			children = (
 				93AC3EF02156F66C00796C24 /* AppDelegate.swift */,
-				93AC3EF22156F66C00796C24 /* ViewController.swift */,
 				93AC3EF42156F66C00796C24 /* Main.storyboard */,
 				93AC3EF72156F66D00796C24 /* Assets.xcassets */,
 				93AC3EF92156F66D00796C24 /* LaunchScreen.storyboard */,
 				93AC3EFC2156F66D00796C24 /* Info.plist */,
+				93AC3F022156F6CC00796C24 /* HomeController.swift */,
 			);
 			path = "Console Retro";
 			sourceTree = "<group>";
@@ -135,7 +135,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				93AC3EF32156F66C00796C24 /* ViewController.swift in Sources */,
+				93AC3F032156F6CC00796C24 /* HomeController.swift in Sources */,
 				93AC3EF12156F66C00796C24 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
