@@ -13,6 +13,8 @@
 		93AC3EFB2156F66D00796C24 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 93AC3EF92156F66D00796C24 /* LaunchScreen.storyboard */; };
 		93AC3F032156F6CC00796C24 /* HomeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93AC3F022156F6CC00796C24 /* HomeController.swift */; };
 		93AC3F062156F9C300796C24 /* Retro60Prime.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 93AC3F052156F9C300796C24 /* Retro60Prime.ttf */; };
+		93AC3F082157E91000796C24 /* Console.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93AC3F072157E91000796C24 /* Console.swift */; };
+		93AC3F0A2157EEC200796C24 /* ConsoleCollection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93AC3F092157EEC200796C24 /* ConsoleCollection.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		93AC3EFC2156F66D00796C24 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		93AC3F022156F6CC00796C24 /* HomeController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeController.swift; sourceTree = "<group>"; };
 		93AC3F052156F9C300796C24 /* Retro60Prime.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Retro60Prime.ttf; sourceTree = "<group>"; };
+		93AC3F072157E91000796C24 /* Console.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Console.swift; sourceTree = "<group>"; };
+		93AC3F092157EEC200796C24 /* ConsoleCollection.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConsoleCollection.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +67,8 @@
 				93AC3EF92156F66D00796C24 /* LaunchScreen.storyboard */,
 				93AC3EFC2156F66D00796C24 /* Info.plist */,
 				93AC3F022156F6CC00796C24 /* HomeController.swift */,
+				93AC3F072157E91000796C24 /* Console.swift */,
+				93AC3F092157EEC200796C24 /* ConsoleCollection.swift */,
 			);
 			path = "Console Retro";
 			sourceTree = "<group>";
@@ -148,6 +154,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				93AC3F032156F6CC00796C24 /* HomeController.swift in Sources */,
+				93AC3F0A2157EEC200796C24 /* ConsoleCollection.swift in Sources */,
+				93AC3F082157E91000796C24 /* Console.swift in Sources */,
 				93AC3EF12156F66C00796C24 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
