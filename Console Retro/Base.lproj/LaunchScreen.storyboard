@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14460.15" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
-    <device id="retina3_5" orientation="landscape">
+    <device id="retina4_0" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
@@ -20,17 +20,17 @@
             <objects>
                 <viewController id="01J-lp-oVM" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
-                        <rect key="frame" x="0.0" y="0.0" width="480" height="320"/>
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Nintendo 64" translatesAutoresizingMaskIntoConstraints="NO" id="2LA-y9-L7F">
-                                <rect key="frame" x="40" y="93.5" width="400" height="133"/>
+                                <rect key="frame" x="40" y="164" width="240" height="240"/>
                                 <constraints>
-                                    <constraint firstAttribute="width" secondItem="2LA-y9-L7F" secondAttribute="height" multiplier="3:1" id="1l0-In-yqr"/>
+                                    <constraint firstAttribute="width" secondItem="2LA-y9-L7F" secondAttribute="height" id="1l0-In-yqr"/>
                                 </constraints>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Mes consoles Retro" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="10" translatesAutoresizingMaskIntoConstraints="NO" id="Y60-gH-mSN">
-                                <rect key="frame" x="20" y="23.5" width="440" height="50"/>
+                                <rect key="frame" x="20" y="94" width="280" height="50"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="50" id="huX-2R-Tz3"/>
                                 </constraints>
